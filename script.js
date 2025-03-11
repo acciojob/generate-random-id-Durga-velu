@@ -7,11 +7,14 @@ function makeid(l) {
 
 // let answer=""
 		for(let i=0;i<l;i++){
- ans.push(res.[Math.floor(Math.random()*res.length])
+ ans.push(res[Math.floor(Math.random()*res.length)])
 //answer +=	result.charAt(Math.round(Math.random()*result.length))		
 	}
+	
 	return ans
+	// return answer
 }
+
 // Do not change the code below.
 const l = prompt("Enter a number.");
 alert(makeid(l).join(""));
