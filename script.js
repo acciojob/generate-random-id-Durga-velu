@@ -5,7 +5,7 @@ function makeid(l) {
 	// 		1,2,3,4,5,6,7,8,9]
 	// let ans=[]
 
-	let result="ABCDEFGHIJKLMNOPQRSTUVWXYZaBCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
+	let result="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789"
 
 let answer=""
 		for(let i=0;i<l;i++){
@@ -17,6 +17,7 @@ answer +=	result.charAt(Math.round(Math.random()*result.length))
 	return answer
 }
 
+
 // Do not change the code below.
-const l = promt("Enter a number.");
+const l = prompt("Enter a number.");
 alert(makeid(l));
