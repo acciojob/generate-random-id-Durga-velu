@@ -7,7 +7,7 @@ function makeid(l) {
 
 	for(let i=0;i<l;i++){
 
-		ans.push(res.[Math.floor(Math.random()60])
+		ans.push(res.[Math.floor(Math.random()*60])
 	}
 	return ans
 }
